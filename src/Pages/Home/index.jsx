@@ -12,47 +12,15 @@ import Clienttrivier from './../../assets/img/clients/trivier_group.png';
 import PersonOne from './../../assets/img/person/person_1.png';
 import PersonTwo from './../../assets/img/person/person_2.png';
 import PersonThree from './../../assets/img/person/person_3.png';
+// Components
+import Footer from './../../components/Footer';
+import Nav from './../../components/Nav';
+
 function Home() {
   return (
     <>
 
-    <nav className="navbar navbar-expand-lg navbar-dark navbar-floating">
-      <div className="container">
-        <a className="navbar-brand" href="#">
-          <img src="../assets/favicon-light.png" alt="" width="40" />
-        </a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarToggler">
-          <ul className="navbar-nav ml-auto mt-3 mt-lg-0">
-            <li className="nav-item dropdown active">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="index.html">Homepage 1</a>
-                <a className="dropdown-item active" href="index-2.html">Homepage 2</a>
-              </div>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="about.html">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="updates.html">What's New</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <div className="ml-auto my-2 my-lg-0">
-            <button className="btn btn-primary rounded-pill">Download Now</button>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <Nav />
 
     <div className="page-hero-section bg-image hero-home-2" style={{ backgroundImage: `url(${HeroBG})`}}>
       <div className="hero-caption">
@@ -389,50 +357,8 @@ function Home() {
       </div>
     </div>
 
-    <div className="page-footer-section bg-dark fg-white">
-      <div className="container mb-5">
-        <div className="row justify-content-center text-center wow fadeInUp">
-          <div className="col-lg-8">
-            <div className="text-center mb-3">
-              <img src="../assets/favicon-light.png" alt="" height="80" />
-            </div>
-            <h3 className="mb-3"><span className="fg-primary">Mob</span>ster</h3>
-            <p className="caption">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-              Expedita voluptates earum minima reiciendis consectetur veniam aut
-              dignissimos
-            </p>
+    <Footer />
 
-            <ul className="nav justify-content-center py-3">
-              <li className="nav-item">
-                <a href="index.html" className="nav-link fg-white px-4">Home</a>
-              </li>
-              <li className="nav-item">
-                <a href="" className="nav-link fg-white px-4">Key Features</a>
-              </li>
-              <li className="nav-item">
-                <a href="" className="nav-link fg-white px-4">Pricing</a>
-              </li>
-              <li className="nav-item">
-                <a href="" className="nav-link fg-white px-4">Testimonials</a>
-              </li>
-              <li className="nav-item">
-                <a href="" className="nav-link fg-white px-4">FAQ</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <hr />
-
-      <p className="text-center mt-4 wow fadeIn">
-        Copyright &copy; 2020
-        <a href="https://www.macodeid.com/" className="fg-white fw-medium"
-          >MACode ID</a
-        >. All right reserved
-      </p>
-    </div>
     </>
   )
 }
