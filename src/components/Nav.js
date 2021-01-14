@@ -20,7 +20,7 @@ function Nav() {
               <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/blog">Blog</Link>
+              <Link className="nav-link" to="/blogs">Blog</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/updates">What's New</Link>
