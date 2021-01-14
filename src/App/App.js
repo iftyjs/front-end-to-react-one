@@ -1,10 +1,10 @@
 import '../assets/css/bootstrap.css';
 import '../assets/css/maicons.css';
 import '../assets/css/mobster.css';
-import Home from './../Pages/Home';
+import Router from './router';
 function App() {
   return (
-    <Home />
+    <Router />
   );
 }
 
