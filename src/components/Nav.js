@@ -1,7 +1,20 @@
 import { Link } from "@reach/router";
 import SiteLogo from './../assets/favicon-light.png';
 function Nav() {
+  const NavLink = props => (
+    <Link
+      {...props}
+      getProps={({ isCurrent }) => {
+        return {
+          style: {
+            color: isCurrent ? "red" : "blue"
+          }
+        };
+      }}
+    />
+  );
   return (
+    <>
     <nav className="navbar navbar-expand-lg navbar-dark navbar-floating">
       <div className="container">
         <Link className="navbar-brand" to="/">
@@ -35,7 +48,8 @@ function Nav() {
         </div>
       </div>
     </nav>
+    </>
   )
 }
 
-export default Nav
+export default Nav;

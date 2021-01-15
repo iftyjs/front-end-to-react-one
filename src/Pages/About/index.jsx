@@ -1,3 +1,4 @@
+import HeroPart from '../../components/HeroPart';
 import ClientSport from './../../assets/img/clients/alter_sport.png';
 import ClientService from './../../assets/img/clients/cleaning_service.png';
 import ClientPhoto from './../../assets/img/clients/creative_photo.png';
@@ -6,7 +7,6 @@ import ClientNetSportTV from './../../assets/img/clients/net_sport_tv.png';
 import ClientNetNewsTV from './../../assets/img/clients/news_digital_tv.png';
 import ClientSpaBeauty from './../../assets/img/clients/spa_beauty.png';
 import Clienttrivier from './../../assets/img/clients/trivier_group.png';
-import HeroMini from './../../assets/img/hero_mini.svg';
 import PersonOne from './../../assets/img/person/person_1.png';
 import PersonTwo from './../../assets/img/person/person_2.png';
 import PersonThree from './../../assets/img/person/person_3.png';
@@ -22,24 +22,7 @@ function About() {
 
       <main className="bg-light">
 
-        <div className="page-hero-section bg-image hero-mini" style={{backgroundImage: `url(${HeroMini})`}}>
-          <div className="hero-caption">
-            <div className="container fg-white h-100">
-              <div className="row justify-content-center align-items-center text-center h-100">
-                <div className="col-lg-6">
-                  <h3 className="mb-4 fw-medium">About Us</h3>
-                  <nav aria-label="breadcrumb">
-                    <ol className="breadcrumb breadcrumb-dark justify-content-center bg-transparent">
-                      <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                      <li className="breadcrumb-item active" aria-current="page">About</li>
-                    </ol>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+      <HeroPart />
 
         <div className="page-section pt-5">
           <div className="container">
