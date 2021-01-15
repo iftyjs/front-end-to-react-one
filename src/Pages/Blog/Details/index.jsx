@@ -1,36 +1,22 @@
+import HeroPart from '../../../components/HeroPart';
 import BloGOne from './../../../assets/img/blogs/blog_1.jpg';
 import BloGTwo from './../../../assets/img/blogs/blog_2.jpg';
 import BloGThree from './../../../assets/img/blogs/blog_3.jpg';
-import HeroMini from './../../../assets/img/hero_mini.svg';
 import PersonOne from './../../../assets/img/person/person_1.png';
 import PersonTwo from './../../../assets/img/person/person_2.png';
 import PersonThree from './../../../assets/img/person/person_3.png';
 import Footer from './../../../components/Footer';
 import Nav from './../../../components/Nav';
+
 function BlogDetails() {
   return (
     <>
 
     <Nav />
+
     <main>
 
-      <div className="page-hero-section bg-image hero-mini" style={{backgroundImage: `url(${HeroMini})`}}>
-      <div className="hero-caption">
-        <div className="container fg-white h-100">
-          <div className="row justify-content-center align-items-center text-center h-100">
-            <div className="col-lg-6">
-              <h3 className="mb-4 fw-medium">Blog</h3>
-              <nav aria-label="breadcrumb">
-                <ol className="breadcrumb breadcrumb-dark justify-content-center bg-transparent">
-                  <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li className="breadcrumb-item active" aria-current="page">Blog</li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      <HeroPart />
 
       <div className="page-section">
         <div className="container">
