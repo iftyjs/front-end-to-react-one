@@ -1,3 +1,4 @@
+import { Link } from "@reach/router";
 import BloGOne from './../../assets/img/blogs/blog_1.jpg';
 import BloGTwo from './../../assets/img/blogs/blog_2.jpg';
 import BloGThree from './../../assets/img/blogs/blog_3.jpg';
@@ -46,7 +47,7 @@ function Blog() {
                     <span>Feb</span>
                   </div>
                 </div>
-                <div className="post-title"><a href="blog-details.html">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</a></div>
+                <div className="post-title"><Link to="/blog/details">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</Link></div>
                 <div className="entry-meta mb-2">
                   <div className="meta-item entry-author">
                     <div className="icon">
@@ -72,7 +73,7 @@ function Blog() {
                 <div className="entry-content">
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quo officia tenetur hic facere animi doloremque adipisci, fugiat ratione corrupti eius amet exercitationem dolorem inventore eum et placeat, sunt ducimus.</p>
                 </div>
-                <a href="#" className="btn btn-primary">Continue Reading</a>
+                <Link to="/blog/details" className="btn btn-primary">Continue Reading</Link>
               </article>
 
               <article className="blog-entry">
@@ -85,7 +86,7 @@ function Blog() {
                     <span>Feb</span>
                   </div>
                 </div>
-                <div className="post-title"><a href="blog-details.html">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</a></div>
+                <div className="post-title"><Link to="/blog/details">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</Link></div>
                 <div className="entry-meta mb-2">
                   <div className="meta-item entry-author">
                     <div className="icon">
@@ -111,7 +112,7 @@ function Blog() {
                 <div className="entry-content">
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quo officia tenetur hic facere animi doloremque adipisci, fugiat ratione corrupti eius amet exercitationem dolorem inventore eum et placeat, sunt ducimus.</p>
                 </div>
-                <a href="#" className="btn btn-primary">Continue Reading</a>
+                <Link to="/blog/details" className="btn btn-primary">Continue Reading</Link>
               </article>
 
               <article className="blog-entry">
@@ -124,7 +125,7 @@ function Blog() {
                     <span>Jan</span>
                   </div>
                 </div>
-                <div className="post-title"><a href="blog-details.html">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</a></div>
+                <div className="post-title"><Link to="/blog/details">Duis feugiat neque sed dolor cursus, sed lacinia nisl pretium</Link></div>
                 <div className="entry-meta mb-2">
                   <div className="meta-item entry-author">
                     <div className="icon">
@@ -150,7 +151,7 @@ function Blog() {
                 <div className="entry-content">
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quo officia tenetur hic facere animi doloremque adipisci, fugiat ratione corrupti eius amet exercitationem dolorem inventore eum et placeat, sunt ducimus.</p>
                 </div>
-                <a href="#" className="btn btn-primary">Continue Reading</a>
+                <Link to="/blog/details" className="btn btn-primary">Continue Reading</Link>
               </article>
             </div>
 
