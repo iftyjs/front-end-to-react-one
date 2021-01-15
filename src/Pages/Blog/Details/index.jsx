@@ -16,7 +16,7 @@ function BlogDetails() {
 
     <main>
 
-      <HeroPart />
+    <HeroPart title="Blog Details" parantLink="Home" childLink="Blog Details" />
 
       <div className="page-section">
         <div className="container">

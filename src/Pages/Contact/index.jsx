@@ -10,7 +10,7 @@ function Contact() {
 
     <div className="bg-light">
 
-      <HeroPart />
+    <HeroPart title="Contact" parantLink="Home" childLink="Contact" />
 
       <div className="page-section">
         <div className="container">

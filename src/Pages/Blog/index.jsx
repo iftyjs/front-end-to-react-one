@@ -15,7 +15,7 @@ function Blog() {
       <Nav />
       <main>
 
-      <HeroPart />
+      <HeroPart title="Blog" parantLink="Home" childLink="Blog" />
 
       <div className="page-section">
         <div className="container">
