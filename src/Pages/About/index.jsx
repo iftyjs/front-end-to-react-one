@@ -22,7 +22,7 @@ function About() {
 
       <main className="bg-light">
 
-      <HeroPart />
+      <HeroPart title="About Us" parantLink="Home" childLink="About" />
 
         <div className="page-section pt-5">
           <div className="container">
