@@ -39,7 +39,7 @@ function Footer() {
 
       <p className="text-center mt-4 wow fadeIn">
         Copyright &copy; 2021
-        <a href="https://www.macodeid.com/" className="fg-white fw-medium"> MACode ID </a>. All right reserved
+        <a href="https://www.macodeid.com/" className="fg-white fw-medium"> MACode ID</a>. All right reserved
       </p>
     </div>
   )
